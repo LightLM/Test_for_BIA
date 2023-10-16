@@ -8,7 +8,7 @@ from .models import Employee, Shift
 def choice_worker(workers):
     # Выбор работника с часами
     choice = random.choice(workers)
-    if random.choice(workers).hours != 0:
+    if choice.hours != 0:
         return choice
     else:
         return choice_worker(workers)
