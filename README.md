@@ -4,4 +4,5 @@ cd sheduler_project
 python manage.py runserver
 
 Админка: http://localhost:8000/admin/scheduler/employee/
+'\n'
 Запрос расписания: http://localhost:8000/scheduler/generate_schedule/2024/11/
